@@ -21,3 +21,9 @@ function tell() {
 }
 
 inElement.addEventListener('click', tell);
+
+function respondToClick(event) {
+    event.target.classList.toggle('effect');
+}
+
+inElement.addEventListener('click', respondToClick);
