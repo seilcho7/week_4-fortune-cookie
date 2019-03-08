@@ -9,13 +9,36 @@ html {
 html, body {
     height: 100%;
     width: 100%;
-    font-size: 50px;
-    text-align: center;
     font-family: 'ZCOOL QingKe HuangYou', cursive;
+    text-align: center;
 }
 
 body {
     background-image: url(https://www.astrology.com/images-US/games/game-fortune-cookie-1.png);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.input {
+    font-size: 40px;
+    position: relative;
+    top: 500px;
+    padding: 10px;
+    margin: 0;
+    border: 10px solid;
+    
+}
+
+.input:hover {
+    transform: scale(1.1);
+    color: red;
+}
+
+.output {
+    width: 100%;
+    font-size: 30px;
+    position: relative;
+    top: 80px;
+    padding: 0;
+    margin: 0;
 }

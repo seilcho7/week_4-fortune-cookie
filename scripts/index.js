@@ -5,4 +5,19 @@ const jokesFortune = [
     "Computer programmers never die, they just get lost in the processing.",
     "Never take advice from electrons. They are always negative.",
 ]
+const outElement = document.querySelector('[data-output]');
+const inElement = document.querySelector('[data-input]');
 
+let counter = 0;
+
+function tell() {
+    if (counter < jokesFortune.length) {
+        outElement.textContent = jokesFortune[counter];
+    }
+    counter += 1;
+    if (counter === jokesFortune.length) {
+        counter = 0;
+    }
+}
+
+inElement.addEventListener('click', tell);
