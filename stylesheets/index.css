@@ -19,23 +19,53 @@ body {
     background-position: center;
 }
 
-.input {
+.next {
     font-size: 40px;
     position: relative;
     top: 500px;
+    right: 15px;
     padding: 10px;
     margin: 0;
     outline: 10px solid;
-    
 }
 
-.input:hover {
+.next:hover {
     transform: scale(1.1);
     color: red;
 }
 
-.input:hover.effect {
+.next.effect {
     transform: scale(1.0);
+}
+
+.previous {
+    font-size: 40px;
+    position: relative;
+    top: 500px;
+    left: 15px;
+    padding: 10px;
+    margin: 0;
+    outline: 10px solid;
+}
+
+.previous:hover {
+    transform: scale(1.1);
+    color: red;
+}
+
+.random {
+    font-size: 40px;
+    position: relative;
+    top: 500px;
+    left: 45px;
+    padding: 10px;
+    margin: 0;
+    outline: 10px solid;
+}
+
+.random:hover {
+    transform: scale(1.1);
+    color: red;
 }
 
 .output {
