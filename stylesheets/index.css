@@ -34,7 +34,7 @@ body {
     color: red;
 }
 
-.next.effect {
+.next:active {
     transform: scale(1.0);
 }
 
@@ -53,6 +53,10 @@ body {
     color: red;
 }
 
+.previous:active {
+    transform: scale(1.0);
+}
+
 .random {
     font-size: 40px;
     position: relative;
@@ -66,6 +70,10 @@ body {
 .random:hover {
     transform: scale(1.1);
     color: red;
+}
+
+.random:active {
+    transform: scale(1.0);
 }
 
 .output {

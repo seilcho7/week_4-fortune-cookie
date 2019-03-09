@@ -53,9 +53,3 @@ function random() {
 nextElement.addEventListener('click', next);
 prevElement.addEventListener('click', prev);
 randomElement.addEventListener('click', random);
-
-function respondToClick(event) {
-    event.target.classList.toggle('effect');
-}
-
-nextElement.addEventListener('click', respondToClick);
